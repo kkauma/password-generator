@@ -43,7 +43,6 @@ hr {
 
 .passwords-section {
   margin-top: 35px;
-  text-align: center;
 }
 
 .btn-password {
@@ -57,11 +56,7 @@ hr {
 }
 
 #password-one,
+#password-two,
 #password-three {
   margin-right: 20px;
-}
-
-#password-one,
-#password-two {
-  margin-bottom: 30px;
 }
