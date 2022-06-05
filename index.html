@@ -1,0 +1,24 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Generate a <br><span id="rand-password">random password</span></br></h1>
+        
+        <p>Never use an insecure password again.</p>
+        
+        <button onclick="generatePasswords()" id="btn-generate"><span id="bolt"><i class="fa-solid fa-bolt"></i></span>Generate Passwords</button>
+        
+        <hr>
+        
+        <div class="passwords-section">
+            <button class="btn-password" id="password-one"></button>
+            <button class="btn-password" id="password-two"></button>
+            <button class="btn-password" id="password-three"></button>
+            <button class="btn-password" id="password-four"></button>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
